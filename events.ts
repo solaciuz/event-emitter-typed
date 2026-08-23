@@ -1,0 +1,1 @@
+export class TypedEmitter<T> { emit<K extends keyof T>(ev: K, arg: T[K]) {} }
